@@ -1,16 +1,16 @@
 export default {
   locale: 'en',
   messages: {
-    siteTitle: 'MERN Starter Blog',
-    addPost: 'Add Post',
+    siteTitle: 'MINIDINI',
+    addPost: 'Create Item',
     switchLanguage: 'Switch Language',
     twitterMessage: 'We are on Twitter',
     by: 'By',
-    deletePost: 'Delete Post',
-    createNewPost: 'Create new post',
+    deletePost: 'Delete Item',
+    createNewPost: 'Create New Item',
     authorName: 'Author\'s Name',
-    postTitle: 'Post Title',
-    postContent: 'Post Content',
+    postTitle: 'Item Name',
+    postContent: 'Item Description',
     submit: 'Submit',
     comment: `user {name} {value, plural,
     	  =0 {does not have any comments}
