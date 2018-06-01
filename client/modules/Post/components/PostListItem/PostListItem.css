@@ -1,19 +1,27 @@
 .single-post {
   margin: 20px 0;
   padding: 15px;
-  border-radius: 2px;
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(232, 176, 73, 1);
+  text-align: center;
+}
+
+.post-icon {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
 }
 
 .post-title{
-  font-size: 28px;
+  font-size: 1.3rem;
   margin-bottom: 16px;
   font-weight: 400;
-  color: #616161;
 }
 
 .post-title a{
   text-decoration: none;
-  color: #616161;
+  color: rgba(255, 255, 255, 1);
 }
 
 .author-name{
