@@ -35,7 +35,7 @@ export class App extends Component {
         <div>
           <Helmet
             title="MiniDini"
-            titleTemplate="%s - Blog App"
+            //titleTemplate="%s - Blog App"
             meta={[
               { charset: 'utf-8' },
               {
@@ -56,7 +56,6 @@ export class App extends Component {
           <div className={styles.container}>
             {this.props.children}
           </div>
-          <Footer />
         </div>
       </div>
     );
