@@ -3,8 +3,13 @@
   width: 10rem;
   height: 10rem;
   background-color: rgba(232, 176, 73, 1);
+  border-radius: 4px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+}
+
+.post-link {
+  text-decoration: none;
 }
 
 .post-icon {
@@ -14,7 +19,7 @@
 }
 
 .post-title{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-bottom: 16px;
   font-weight: 400;
 }
