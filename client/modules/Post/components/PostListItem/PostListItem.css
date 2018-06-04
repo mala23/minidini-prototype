@@ -1,11 +1,9 @@
 .single-post {
-  margin: 2rem 2rem 0 0;
   padding: 1rem;
   width: 10rem;
   height: 10rem;
   background-color: rgba(232, 176, 73, 1);
   text-align: center;
-  display: inline-block;
   color: rgba(255, 255, 255, 1);
 }
 

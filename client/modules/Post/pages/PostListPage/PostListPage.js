@@ -34,7 +34,6 @@ class PostListPage extends Component {
     return (
       <div>
         <PostCreateWidget addPost={this.handleAddPost} showAddPost={this.props.showAddPost} />
-        <AddPostButton />
         <PostList handleDeletePost={this.handleDeletePost} posts={this.props.posts} />
       </div>
     );

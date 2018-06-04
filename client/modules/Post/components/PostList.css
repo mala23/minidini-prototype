@@ -1,0 +1,7 @@
+.listView {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55vw;
+  margin: 0 auto;
+}

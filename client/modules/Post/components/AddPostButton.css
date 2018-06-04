@@ -1,11 +1,9 @@
 .add-post-button {
   width: 10rem;
   height: 10rem;
-  margin: 2rem 2rem 0 0;
   padding: 1rem;
   position: relative;
   text-align: center;
-  display: inline-block;
   border: 5px solid rgba(244, 244, 244, 1);
   border-radius: 4px;
   cursor: pointer;
