@@ -9,7 +9,7 @@ function PostListItem(props) {
   return (
     <Link className={styles['post-link']} to={`/posts/${props.post.slug}-${props.post.cuid}`} >
     <div className={styles['single-post']}>
-      <img className={styles['post-icon']} src="https://s3.eu-central-1.amazonaws.com/minidini/images/icons/icon_microwave-white.svg" alt="Item Icon"/>
+      <img className={styles['post-icon']} src={props.post.icon} alt="Item Icon"/>
       <h3 className={styles['post-title']}>
           {props.post.title}
       </h3>
@@ -24,6 +24,7 @@ PostListItem.propTypes = {
     title: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
     cuid: PropTypes.string.isRequired,
   }).isRequired,
   onDelete: PropTypes.func.isRequired,

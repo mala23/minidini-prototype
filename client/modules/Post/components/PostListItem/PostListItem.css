@@ -13,9 +13,9 @@
 }
 
 .post-icon {
-  width: 6rem;
-  height: 6rem;
-  margin: 0 auto;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem auto .5rem auto;
 }
 
 .post-title{

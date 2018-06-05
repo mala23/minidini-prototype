@@ -25,9 +25,9 @@ class PostListPage extends Component {
     }
   };
 
-  handleAddPost = (name, title, content) => {
+  handleAddPost = (name, title, icon, content) => {
     this.props.dispatch(toggleAddPost());
-    this.props.dispatch(addPostRequest({ name, title, content }));
+    this.props.dispatch(addPostRequest({ name, title, icon, content }));
   };
 
   render() {
@@ -55,6 +55,7 @@ PostListPage.propTypes = {
   posts: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
   })).isRequired,
   showAddPost: PropTypes.bool.isRequired,

@@ -34,6 +34,7 @@ export function addPost(req, res) {
   // Let's sanitize inputs
   newPost.title = sanitizeHtml(newPost.title);
   newPost.name = sanitizeHtml(newPost.name);
+  newPost.icon = sanitieHtml(newPost.icon);
   newPost.content = sanitizeHtml(newPost.content);
 
   newPost.slug = slug(newPost.title.toLowerCase(), { lowercase: true });

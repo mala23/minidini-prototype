@@ -19,6 +19,7 @@ export function addPostRequest(post) {
       post: {
         name: post.name,
         title: post.title,
+        icon: post.icon,
         content: post.content,
       },
     }).then(res => dispatch(addPost(res.post)));
